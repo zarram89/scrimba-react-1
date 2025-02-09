@@ -1,9 +1,15 @@
-import Page from './components/Page.jsx' 
+import Header from './components/Header.jsx' 
+import Entry from './components/entry.jsx'
 
 function App() {
 
   return (
-    <Page />
+    <>
+      <Header />
+      <main className='container'>
+        <Entry />
+      </main>
+    </>
   )
 }
 
