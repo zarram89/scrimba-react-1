@@ -1,14 +1,12 @@
-import Header from './Header.jsx'
+import Navbar from './Navbar.jsx'
 import MainContent from './MainContent.jsx'
-import Footer from './Footer.jsx'
 
 
 function Page() {
   return(
     <>
-      <Header />
+      <Navbar />
       <MainContent />
-      <Footer />
     </>
   )
 }

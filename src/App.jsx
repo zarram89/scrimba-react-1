@@ -1,5 +1,4 @@
-import './App.css'
-import Page from './Page.jsx' 
+import Page from './components/Page.jsx' 
 
 function App() {
 
